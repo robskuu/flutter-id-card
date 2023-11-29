@@ -121,7 +121,7 @@ class Home extends StatelessWidget {
               child: Text(
                 "P01135809",
                 style: TextStyle(
-                  color: Colors.blueGrey,
+                  color: Colors.white70,
                 ),
               ),
             ),
@@ -162,7 +162,7 @@ class Home extends StatelessWidget {
             Padding(
               padding: EdgeInsets.fromLTRB(8.0, 1.0, 0.0, 0.0),
               child: Text(
-                "consipracy to impersonate a public officer",
+                "Consipracy to impersonate a public officer",
                 style: TextStyle(
                   color: Colors.white70,
                 ),
@@ -171,7 +171,7 @@ class Home extends StatelessWidget {
             Padding(
               padding: EdgeInsets.fromLTRB(8.0, 1.0, 0.0, 0.0),
               child: Text(
-                "forgery",
+                "Forgery",
                 style: TextStyle(
                   color: Colors.white70,
                 ),
