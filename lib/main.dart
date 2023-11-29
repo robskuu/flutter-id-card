@@ -18,6 +18,7 @@ class Home extends StatelessWidget {
           style: TextStyle(
             color: Colors.amberAccent,
             letterSpacing: 2.0,
+            fontWeight: FontWeight.bold,
           ),
         ),
         centerTitle: true,
