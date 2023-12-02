@@ -25,6 +25,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.grey[850],
         elevation: 0.0,
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => {SystemNavigator.pop()},
+        backgroundColor: Colors.grey[800],
+        child: const Icon(Icons.add),
+      ),
       body: const Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
