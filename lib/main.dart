@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () => {SystemNavigator.pop()},
         backgroundColor: Colors.grey[800],
-        child: const Icon(Icons.add),
+        child: const Icon(Icons.close),
       ),
       body: const Padding(
         padding: EdgeInsets.fromLTRB(30.0, 40.0, 30.0, 0.0),
