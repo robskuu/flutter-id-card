@@ -1,20 +1,39 @@
-# id_card
+# Flutter Id Card
+An ID card app made using flutter.
 
-A new Flutter project.
+## Flutter Project Setup
 
-## Getting Started
+Follow these steps to set up the Flutter project using the code from this GitHub repository.
 
-This project is a starting point for a Flutter application.
+## 1. Create a new Flutter project
 
-A few resources to get you started if this is your first Flutter project:
+Open a terminal and run the following commands:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter create your_project_name
+cd your_project_name
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 2. Copy the `assets` folder
+Copy the `assets` folder and all its contents to the root ot the project
 
+## 3. Replcate the contents of the `lib` folder
+Replace the contents of the `lib` folder with the contents of the `lib` folder in this github repo
 
-## Output
-![Drag Racing](output.webp)
+## 4. Replcate the `pubspec.yaml` file
+Delete the current `pubspec.yaml` file and copy the one from this repo to the root of your project
+
+## 5. Install dependencies
+
+```bash
+flutter pub get
+```
+
+## 6. Run the app
+
+```bash
+flutter run
+```
+
+## The end result:
+![Output Image](output.webp)
