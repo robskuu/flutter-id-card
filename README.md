@@ -1,4 +1,4 @@
-# Flutter Id Card
+# Flutter ID Card
 An ID card app made using flutter.
 
 ## Flutter Project Setup
